@@ -17,9 +17,14 @@
 
 <link rel="stylesheet" type="text/css" href="creative/css/slick.css"/>
 <link rel="stylesheet" type="text/css" href="creative/css/slick-theme.css"/>
-
 </head>
 <body>
+<div id="search-area">
+<form method="post" action="#">
+	<input type="text" name="keywords" title="Enter Keyword(s)" placeholder="Keyword(s)" style="width:500px;margin-bottom:0;"><a href="#" class="green-button" style="margin-left:15px;width:115px;" title="Search">Search</a>
+</form>
+</div>
+
 <!-- HEADER -->
 <header>
 <div id="header-inner">
@@ -32,7 +37,7 @@
         <li><a href="#">Home Appliances</a></li>
         <li><a href="#">Support</a></li>
         <li><a href="#">Register / Login</a></li>
-        <li><a href="#" title="Search"><img src="creative/assets/icons/icon-search.png" alt="Search" title="Search" /></a></li>
+        <li><div id="search-area-toggle"><a href="javascript:toggleSearch();" id="drop-search" title="Search"><img src="creative/assets/icons/icon-search.png" alt="Search" title="Search" /></a></div></li>
 		<li><a href="#" title="Shopping Bag"><img src="creative/assets/icons/icon-cart.png" alt="Shopping Bag" title="Shopping Bag" /></a></li>
       
       </ul>
